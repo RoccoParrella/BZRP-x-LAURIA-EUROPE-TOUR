@@ -8,13 +8,18 @@ html {
     font-size: 62.5%;
 }
 
-
-body{
-    background-image: url('../img/background.jpg');
-    background-repeat: repeat-y;
+a {
+    width: auto;
+    height: auto;
 }
 
-.header{
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: repeat-y;
+    width: 100%;
+}
+
+.header {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
     left: 0;
     top: 0;
@@ -22,18 +27,18 @@ body{
     position: absolute;
 }
 
-.logo-bzrp{
+.logo-bzrp {
     padding: 30px 0 30px 30px;
     width: 150px;
     height: auto;
 }
 
-main{
+main {
     width: 100%;
-    
 }
 
-.div-main{
+.div-main {
+    margin-top: -200px;
     display: flex;
     height: auto;
     flex-direction: column;
@@ -42,30 +47,34 @@ main{
     overflow: hidden;
 }
 
-.div-first{ 
-    margin: -70px 0 100px 0;
+.div-first {
+    margin-top: 100px;
     height: 100vh;
-    width: 113%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.img-sunglasses{
-    display: none;
+.img-sunglasses {
+    margin-left: -1200px;
+    margin-top: -300px;
 }
 
-.img-poster{
+.img-poster {
     width: 100%;
     height: auto;
 }
 
-.div-hat{
-    margin: -900px -600px 0 0;
+.img-hat {
+    margin: -800px -550px 0 0;
 }
 
-.div-second, .div-third, .div-fourth, .div-fifth{ 
+.div-second,
+.div-third,
+.div-fourth,
+.div-fifth {
     height: 82vh;
     width: 120%;
     display: flex;
@@ -74,7 +83,217 @@ main{
     align-items: center;
 }
 
-.img-fechas{
+.div-second {
+    margin-top: 100px;
+}
+
+.img-fechas {
     width: 100%;
     height: auto;
+}
+
+footer {
+    background-color: black;
+    padding: 100px 0 50px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.social-media-biza {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.img-social-media {
+    width: 40px;
+    height: 40px
+}
+
+.social-media-lauria {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 80%;
+}
+
+.div-line {
+    height: 1px;
+    width: 80%;
+    background-color: white;
+}
+
+.img-pollaroid-1, .img-pollaroid-2, .img-pollaroid-3, .img-pasaporte {
+    display: none;
+}
+
+@media (min-width: 420px) {
+
+
+    .div-second,
+    .div-third,
+    .div-fourth,
+    .div-fifth {
+        width: 90%;
+    }
+
+
+}
+
+@media (min-width: 750px) {
+
+    .div-second,
+    .div-third,
+    .div-fourth,
+    .div-fifth {
+        width: 800px;
+    }
+
+
+    .logo-bzrp {
+        padding: 50px 0 50px 30px;
+        width: 200px;
+    }
+
+    .div-first {
+        width: 500px;
+    }
+
+    .img-hat {
+        margin: -1100px -700px 0 0;
+    }
+
+    .social-media-lauria {
+        width: 400px;
+        justify-content: space-around;
+    }
+
+    .social-media-biza {
+        width: 400px;
+        justify-content: space-around;
+    }
+
+    .div-line {
+        height: 1px;
+        width: 350px;
+        background-color: white;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .div-first {
+        margin-top: 300px;
+        width: 600px;
+    }
+
+    .img-hat {
+        margin: -1300px -800px 0 0;
+    }
+
+    .img-pollaroid-1, .img-pollaroid-2, .img-pollaroid-3 {
+        display: inline;
+        width: 280px;
+        height: auto;
+    }
+
+    .img-pollaroid-1{
+        margin: 150px -1100px 0 0;
+    }
+
+    .img-pollaroid-2{
+        margin: -500px 1150px 0 0;
+    }
+
+    .img-pollaroid-3{
+        margin: -200px -1100px 0 0;
+    }
+
+    .img-pasaporte{
+        display: block;
+        width: 250px;
+        height: auto;
+        margin: -300px 900px 0 0;
+    }
+
+    
+
+}
+
+@media (min-width: 1200px) {
+    .div-first {
+        margin-top: 300px;
+        width: 500px;
+    }
+
+    .img-hat {
+        margin: -1050px -700px 0 0;
+    }
+
+    .img-sunglasses {
+        margin-left: -1100px;
+        margin-top: -250px;
+    }
+
+    .div-second {
+        margin-top: 200px;
+    }
+
+    .img-pollaroid-1 {
+        width: 200px;
+        margin: 100 -1100px 0 0;
+    }
+
+    .img-pollaroid-2 {
+        width: 200px;
+        margin: 0 1100px -200px 0;
+    }
+
+    
+}
+
+@media (min-width: 1281px) {
+
+    .div-first {
+        margin-top: 300px;
+    }
+
+    .img-sunglasses {
+        margin-left: -1600px;
+        margin-top: -300px;
+    }
+
+    .div-second {
+        margin-top: 200px;
+    }
+
+    .img-hat {
+        margin: -1300px -800px 0 0;
+    }
+
+    .div-second,
+    .div-third,
+    .div-fourth,
+    .div-fifth {
+        width: 700px;
+    }
+
 }
