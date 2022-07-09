@@ -140,7 +140,7 @@ footer {
     background-color: white;
 }
 
-.img-pollaroid-1, .img-pollaroid-2, .img-pollaroid-3, .img-pasaporte {
+.img-pollaroid-1, .img-pollaroid-2, .img-pollaroid-3, .img-pasaporte, .div-piano {
     display: none;
 }
 
@@ -267,22 +267,36 @@ footer {
         margin: 0 1100px -200px 0;
     }
 
+    .div-fourth{
+        margin-top: 200px;
+    }
+
+    .div-piano{
+        display: block;
+        width: 250px;
+        height: auto;
+        margin: -300px -1200px 0 0;
+    }
     
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1300px) {
 
     .div-first {
-        margin-top: 300px;
+        margin-top: 250px;
+        width: 600px;
+        
     }
 
     .img-sunglasses {
-        margin-left: -1600px;
+        margin-left: -1200px;
         margin-top: -300px;
+        width: 500px;
+        height: auto;
     }
 
     .div-second {
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     .img-hat {
@@ -294,6 +308,25 @@ footer {
     .div-fourth,
     .div-fifth {
         width: 700px;
+    }
+
+    .img-pollaroid-1 {
+        width: 250px;
+        margin: 200px -1750px 0 0;
+    }
+
+    .img-pollaroid-2 {
+        width: 250px;
+        margin: 0 1100px -200px 0;
+    }
+
+    .div-piano{
+        margin: -300px -1800px 0 0;
+    }
+
+    .img-pasaporte{
+
+        margin: -300px 1000px 0 0;
     }
 
 }
