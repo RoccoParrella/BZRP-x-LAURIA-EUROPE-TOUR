@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body{
+    background-image: url('../img/background.jpg');
+    background-repeat: repeat-y;
+}
+
+.header{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.logo-bzrp{
+    padding: 30px 0 30px 30px;
+    width: 150px;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    
+}
+
+.div-main{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.div-first{ 
+    margin: -70px 0 100px 0;
+    height: 100vh;
+    width: 113%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sunglasses{
+    display: none;
+}
+
+.img-poster{
+    width: 100%;
+    height: auto;
+}
+
+.div-hat{
+    margin: -900px -600px 0 0;
+}
+
+.div-second, .div-third, .div-fourth, .div-fifth{ 
+    height: 82vh;
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fechas{
+    width: 100%;
+    height: auto;
+}
