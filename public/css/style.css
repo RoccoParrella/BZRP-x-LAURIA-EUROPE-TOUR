@@ -19,6 +19,33 @@ body {
     width: 100%;
 }
 
+button{
+    border: none;
+    background: none;
+}
+
+.img-eeee{
+    width: 80%;
+    margin: auto;
+}
+
+.modal-dialog{
+    padding: 0;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    padding: 0;
+    margin: 0;
+} 
+
 .header {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
     left: 0;
@@ -196,6 +223,11 @@ footer {
         background-color: white;
     }
 
+    .img-eeee{
+        width: 500px;
+        margin: auto;
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -317,7 +349,12 @@ footer {
 
     .img-pollaroid-2 {
         width: 250px;
-        margin: 0 1100px -200px 0;
+        margin: 0 1700px -200px 0;
+    }
+
+    .img-pollaroid-3{
+        width: 250px;
+        margin: 0 -1750px -200px 0;
     }
 
     .div-piano{

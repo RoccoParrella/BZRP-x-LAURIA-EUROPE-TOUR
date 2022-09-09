@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="public/img/favicon-1.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Bizarrap - Spain Tour</title>
@@ -18,35 +20,123 @@
 
     <main>
         <div class="div-main">
-            <div  class="div-first">
+            <div class="div-first">
                 <img class="img-poster" src="public/img/bzrp-tour-euro.png" alt="Poster del tour de Bizarrap">
-                <div data-aos="fade-down" class="img-hat"><img  src="public/img/gorra.png" alt="Gorra de Bizarrap"></div>
-                <div data-aos="fade-right" class="img-sunglasses" ><img src="public/img/lentes.png" alt="Anteojos de Bizarrap"></div>
-                <div data-aos="fade-left" class="img-pollaroid-1" ><img src="public/img/polaroid1.png" alt="Foto pollaroid de Bizarrap"></div>
+                <div data-aos="fade-down" class="img-hat"><img src="public/img/gorra.png" alt="Gorra de Bizarrap"></div>
+                <div data-aos="fade-right" class="img-sunglasses"><img src="public/img/lentes.png"
+                        alt="Anteojos de Bizarrap"></div>
+                <div data-aos="fade-left" class="img-pollaroid-1"><img src="public/img/polaroid1.png"
+                        alt="Foto pollaroid de Bizarrap"></div>
             </div>
 
             <div class="div-second">
-                <div data-aos="fade-right" class="img-pollaroid-2" ><img src="public/img/polaroid2.png" alt="Foto pollaroid de Bizarrap"></div>
-                <a href="#"><img class="img-fechas" src="public/img/fecha-0406.png" alt="Poster tour 04/06"></a>
-                <div data-aos="fade-left" class="img-pollaroid-3"><img src="public/img/polaroid3.png" alt="Foto pollaroid de Bizarrap"></div>
+                <div data-aos="fade-right" class="img-pollaroid-2"><img src="public/img/polaroid2.png"
+                        alt="Foto pollaroid de Bizarrap"></div>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modal0406"><img class="img-fechas"
+                        src="public/img/fecha-0406.png" alt="Poster tour 04/06"></button>
+                <div data-aos="fade-left" class="img-pollaroid-3"><img src="public/img/polaroid3.png"
+                        alt="Foto pollaroid de Bizarrap"></div>
+                <div class="modal fade modal-fullscreen" id="modal0406" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="public/img/polaroid1.png" class="d-block img-eeee" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="public/img/polaroid2.png" class="d-block img-eeee" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="public/img/polaroid3.png" class="d-block img-eeee" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="div-third">
-                
-                <a href="#"><img class="img-fechas" src="public/img/fecha-1006.png" alt="Poster tour 10/06"></a>
-                <div data-aos="fade-right" class="img-pasaporte"><img src="public/img/pasaporte.png" alt="Pasaporte Argentino"></div>
+
+                <button type="button" data-bs-toggle="modal" data-bs-target="#model1006"><img class="img-fechas"
+                        src="public/img/fecha-1006.png" alt="Poster tour 10/06"></button>
+                <div data-aos="fade-right" class="img-pasaporte"><img src="public/img/pasaporte.png"
+                        alt="Pasaporte Argentino"></div>
+
+                <div class="modal fade modal-fullscreen" id="model1006" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="public/img/polaroid1.png" class="d-block img-eeee" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="public/img/polaroid2.png" class="d-block img-eeee" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="public/img/polaroid3.png" class="d-block img-eeee" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="div-fourth">
-                <a href="#"><img class="img-fechas" src="public/img/fecha-1106.png" alt="Poster tour 11/06"></a>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modal1106"><img class="img-fechas"
+                        src="public/img/fecha-1106.png" alt="Poster tour 11/06"></button>
                 <div data-aos="fade-left" class="div-piano"><img src="public/img/piano.png" alt="Piano de Bizarrap"></div>
+
+                    <div class="modal fade modal-fullscreen" id="modal1106" tabindex="-1"
+                        aria-labelledby="" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="public/img/polaroid1.png" class="d-block img-eeee" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="public/img/polaroid2.png" class="d-block img-eeee" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="public/img/polaroid3.png" class="d-block img-eeee" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                
             </div>
 
             <div class="div-fifth">
-                <a href="#"><img class="img-fechas" src="public/img/fecha-1806.png" alt="Poster tour 18/06"></a>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#modal1806"><img class="img-fechas" src="public/img/fecha-1806.png" alt="Poster tour 18/06"></button>
+
+                <div class="modal fade modal-fullscreen" id="modal1806" tabindex="-1"
+                aria-labelledby="" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="public/img/polaroid1.png" class="d-block img-eeee" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="public/img/polaroid2.png" class="d-block img-eeee" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="public/img/polaroid3.png" class="d-block img-eeee" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </main>
+
+
+
 
     <footer>
         <div class="div-footer">
@@ -76,6 +166,12 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
